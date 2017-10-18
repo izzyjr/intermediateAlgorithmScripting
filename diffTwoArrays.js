@@ -1,6 +1,6 @@
+
 function diffArray(arr1, arr2) {
     var final = [];
-    var array = [];
     var count = 0;
     var newArr = arr1.concat(arr2);
     for(var i = 0; i < newArr.length; i++){
@@ -9,7 +9,6 @@ function diffArray(arr1, arr2) {
               count++;
           }
       }
-       array.push(count);
        if(count == 1){
          final.push(newArr[i]);
      }
